@@ -12,6 +12,10 @@ app.get("/", function(request, response) {
   response.render("index");
 });
 
+app.get("/2", function(request, response) {
+  response.render("2");
+});
+
 const server = app.listen(process.env.PORT || 5000, function() {
   console.info('Server running at http://0.0.0.0:' + server.address().port)
 });
