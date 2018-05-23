@@ -1,7 +1,7 @@
 {
-  "name": "vipcareaustin.com",
+  "name": "drglen",
   "version": "1.0.0",
-  "description": "",
+  "description": "vipchiropractic.care",
   "main": "server.js",
   "scripts": {
     "test": "sh test/index.test.sh",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sethbergman/drglen.git"
+    "url": "git+https://github.com/vipcare/drglen.git"
   },
   "author": "Seth Bergman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sethbergman/drglen/issues"
+    "url": "https://github.com/vipcare/drglen/issues"
   },
-  "homepage": "https://github.com/sethbergman/drglen#readme",
+  "homepage": "https://github.com/vipcare/drglen#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "consolidate": "^0.15.0",
