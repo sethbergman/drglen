@@ -1,3 +1,38 @@
-[![Build Status](https://travis-ci.org/sethbergman/drglen.svg?branch=master)](https://travis-ci.org/sethbergman/drglen)
+# Dr. Glen
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/drglen.svg)](https://greenkeeper.io/)
+React, Node and Express
+
+---
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/vipcare/drglen.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/vipcare/drglen.svg?branch=master)](https://travis-ci.org/vipcare/drglen)
+
+
+## Demo:
+
+[vipchiropractic.care](https://vipchiropractic.care)
+
+### Setup
+
+```
+git clone https://github.com/vipcare/drglen.git && cd drglen
+```
+
+### Install dependencies
+
+```sh
+npm i # or use yarn
+yarn
+```
+
+### Start the app
+
+```
+npm start
+```
+
+##### Visit [http://0.0.0.0:5000](http://0.0.0.0:5000) in your browser.
+
+### Demo:
+
+#### [vipchiropractic.care](https://vipchiropractic.care)
