@@ -5,7 +5,7 @@ const app = express()
 app.engine('html', require('ejs').renderFile)
 app.set('/views', express.static(__dirname + '/views'))
 app.set('view engine', 'html')
-// app.use('/assets', express.static(__dirname + '/assets'))
+app.use('/assets', express.static(__dirname + '/assets'))
 app.use(bodyParser.urlencoded({ extended: false }))
 
 app.get('/', function(request, response) {

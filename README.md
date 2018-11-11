@@ -27,8 +27,10 @@ yarn
 
 ### Start the app
 
-```
+```sh
 npm start
+# with yarn
+yarn start
 ```
 
 ##### Visit [http://0.0.0.0:5000](http://0.0.0.0:5000) in your browser.
