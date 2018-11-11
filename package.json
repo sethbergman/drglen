@@ -1,6 +1,6 @@
 {
   "name": "drglen",
-  "version": "1.2",
+  "version": "1.0.0",
   "description": "vipchiropractic.care",
   "main": "server.js",
   "engines": {
