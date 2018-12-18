@@ -4,8 +4,7 @@ React, Node and Express
 
 ---
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/vipcare/vipchiropractic.care.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/vipcare/drglen.svg?branch=master)](https://travis-ci.org/vipcare/vipchiropractic.care)
+[![Build Status](https://travis-ci.org/vipcare/vipchiropractic.care.svg?branch=master)](https://travis-ci.org/vipcare/vipchiropractic.care)
 
 
 ## Demo:
