@@ -1,11 +1,11 @@
-# Dr. Glen
+# VIPCHIROPRACTIC.CARE
 
 React, Node and Express
 
 ---
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/vipcare/drglen.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/vipcare/drglen.svg?branch=master)](https://travis-ci.org/vipcare/drglen)
+[![Greenkeeper badge](https://badges.greenkeeper.io/vipcare/vipchiropractic.care.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/vipcare/drglen.svg?branch=master)](https://travis-ci.org/vipcare/vipchiropractic.care)
 
 
 ## Demo:
@@ -15,7 +15,7 @@ React, Node and Express
 ### Setup
 
 ```
-git clone https://github.com/vipcare/drglen.git && cd drglen
+git clone https://github.com/vipcare/vipchiropractic.care.git && cd vipchiropractic.care
 ```
 
 ### Install dependencies
