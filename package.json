@@ -1,5 +1,5 @@
 {
-  "name": "drglen",
+  "name": "vipchiropractic",
   "version": "1.0.0",
   "description": "vipchiropractic.care",
   "main": "server.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vipcare/drglen.git"
+    "url": "git+https://github.com/vipcare/vipchiropractic.care.git"
   },
   "author": "Seth Bergman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vipcare/drglen/issues"
+    "url": "https://github.com/vipcare/vipchiropractic.care/issues"
   },
-  "homepage": "https://github.com/vipcare/drglen#readme",
+  "homepage": "https://github.com/vipcare/vipchiropractic.care#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "consolidate": "^0.15.0",

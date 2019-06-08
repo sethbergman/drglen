@@ -9,7 +9,7 @@ app.use("/assets", express.static(__dirname + "/assets"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", function(request, response) {
-  response.render("index");
+  response.render("index2");
 });
 
 const server = app.listen(process.env.PORT || 5000, function() {
