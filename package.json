@@ -4,8 +4,7 @@
   "description": "vipchiropractic.care",
   "main": "server.js",
   "engines": {
-    "node": ">=12",
-    "npm": ">=6"
+    "node": ">=12"
   },
   "scripts": {
     "test": "sh test/index.test.sh",
