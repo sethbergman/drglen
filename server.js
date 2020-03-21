@@ -13,9 +13,17 @@ app.get("/", (req, res) => {
   res.render("index2");
 });
 
-app.get("/day-1-paperwork", (req, res) => {
-  var filePath = "/views/day-1-paperwork.pdf";
-  fs.readFile(__dirname + filePath, function(err, data) {
+app.get("/paperwork", (req, res) => {
+  let filePath = "/views/Paperwork.pdf";
+  fs.readFile(__dirname + filePath, (err, data) => {
+    res.contentType("application/pdf");
+    res.send(data);
+  });
+});
+
+app.get("/vip", (req, res) => {
+  let filePath = "/views/New-VIP-Patient.pdf";
+  fs.readFile(__dirname + filePath, (err, data) => {
     res.contentType("application/pdf");
     res.send(data);
   });
