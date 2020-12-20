@@ -22,8 +22,8 @@
   "homepage": "https://github.com/vipcare/vipchiropractic.care#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
     "path": "^0.12.7"
   }
