@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
   res.render("index2");
 });
 
+app.get("page2", (req, res) => {
+  res.render("index2");
+});
+
 app.get("/paperwork", (req, res) => {
   let filePath = "/views/Paperwork.pdf";
   fs.readFile(__dirname + filePath, (err, data) => {
