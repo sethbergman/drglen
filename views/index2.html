@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
 	<link rel="icon" href="../assets/rs=w_16,h_16,m.png" sizes="16x16" />
@@ -2455,7 +2456,7 @@
 											  src="//img1.wsimg.com/isteam/stock/451/:/rs=w:223,h:223,cg:true,m/cr=w:223,h:223"
 											  srcSet="//img1.wsimg.com/isteam/stock/451/:/rs=w:223,h:223,cg:true,m/cr=w:223,h:223, //img1.wsimg.com/isteam/stock/451/:/rs=w:334.5,h:334.5,cg:true,m/cr=w:334.5,h:334.5 1.5x, //img1.wsimg.com/isteam/stock/451/:/rs=w:446,h:446,cg:true,m/cr=w:446,h:446 2x, //img1.wsimg.com/isteam/stock/451/:/rs=w:669,h:669,cg:true,m/cr=w:669,h:669 3x"
 											  data-ux="ImageThumbnail" data-aid="ABOUT_IMAGE_RENDERED0"
-											  class="x-el x-el-img px_-text-transform-uppercase px_-max-width-100P px_-ml-0 px_-mr-0 px_-mt-0 px_-mb-0 px_-border-radius-1000px px_-w-223 px_-d-inline-block px_-ff-_Fjalla_One___arial__sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux x-d-aid" />
+											  class="x-el x-el-img px_-text-transform-uppercase px_-max-width-100P px_-ml-0 px_-mr-0 px_-mt-0 px_-mb-0 px_-border-radius-1000px px_-w-223 px_-d-inline-block px_-ff-_Fjalla_One___arial__sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux x-d-aid"alt="About" />
 										</div>
 										<div data-ux="ContentBasic"
 										  class="x-el x-el-div x-el px_-text-transform-uppercase px_-d-flex px_-flex-direction-column px__CA__nth-childn-mb-20px px___CA__last-child-mb-0__important px_-ff-_Fjalla_One___arial__sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux px_-text-transform-uppercase px_-ff-_Fjalla_One___arial__sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux">
@@ -11601,7 +11602,7 @@
 					"name": "Appointments",
 					"href": "https://blog.vipchiropractic.care/appointments/",
 					"target": "_blank",
-					2019 VIP Chiropractic Care "visible": true,
+					"2021 VIP Chiropractic Care": true,
 					"requiresAuth": false,
 					"rel": "noopener",
 					"type": "page",
@@ -13887,7 +13888,7 @@
 				"day": "Tuesday",
 				"dayOfWeek": 2,
 				"openTime": "09:00",
-				"closeTime": "14:00",
+				"closeTime": "19:00",
 				"byAppointmentOnly": false,
 				"closed": false
 			}, {
@@ -13901,7 +13902,7 @@
 				"day": "Thursday",
 				"dayOfWeek": 4,
 				"openTime": "09:00",
-				"closeTime": "14:00",
+				"closeTime": "19:00",
 				"byAppointmentOnly": false,
 				"closed": false
 			}, {
@@ -13917,7 +13918,7 @@
 				"byAppointmentOnly": false,
 				"closed": false,
 				"openTime": "10:00",
-				"closeTime": "01:00"
+				"closeTime": "13:00"
 			}, {
 				"day": "Sunday",
 				"dayOfWeek": 0,
@@ -16097,8 +16098,8 @@
 				key: "openDeviceMapApp",
 				value: function() {
 					var e = this.state.address,
-						t = s.deviceDetector.isIOS() ? "http://maps.apple.com/?q=" +
-						e : "http://www.google.com/maps/dir//" + e;
+						t = s.deviceDetector.isIOS() ? "https://maps.apple.com/?q=" +
+						e : "https://www.google.com/maps/dir//" + e;
 					window.location.href = t
 				}
 			}, {

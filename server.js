@@ -29,6 +29,6 @@ app.get("/vip", (req, res) => {
   });
 });
 
-const server = app.listen(process.env.PORT || 5000, function() {
+const server = app.listen(process.env.PORT || 5000, function () {
   console.info("Server running at http://0.0.0.0:" + server.address().port);
 });
